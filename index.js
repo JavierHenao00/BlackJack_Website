@@ -6,7 +6,12 @@ let obtuvoBlackJack=false
 let messageEl=document.getElementById("message-el")
 let cardEl=document.getElementById("Card-el")
 let totalEl=document.getElementById("total-el")
-
+let player={
+    Name:"Javier Camilo",
+    chips:2500
+}
+let chipsEl=document.getElementById("chips-el")
+chipsEl.textContent=player.Name+" : $"+player.chips
 
 function RandomCard(){
 let randomcard=Math.floor(Math.random()*13)+1
