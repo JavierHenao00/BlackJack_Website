@@ -59,7 +59,7 @@ function rendergame(){
 
     }
     else if(sum===21){
-        message = "Felicitaciones!! Obtuviste BlackJack!!!"
+        message = "Enhorabuena!! Obtuviste BlackJack!!!"
         estaVivo=false
         obtuvoBlackJack=true
     }
